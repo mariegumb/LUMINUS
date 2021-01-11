@@ -1,7 +1,7 @@
 <template>
   <div class="p-4 text-center" v-for="(device, index) in devices" :key="'device' + index">
     <div class="my-4">
-      <span class="text-cyan-500 text-2xl">LUMINOUS</span>
+      <span class="text-cyan-500 text-2xl">LUMINUS</span>
     </div>
     <div class="mt-12">
       <button @click="selectMode(device, 'color')" type="button" class="mx-1 py-1 px-2 rounded text-white" :class="{'bg-white text-indigo-500': device.mode !== 'color', 'bg-indigo-500': device.mode === 'color'}">Color</button>
